@@ -104,7 +104,7 @@ The attendance percentage is calculated using the formula:
 
 ## 8. Data Validation
 
-The program checks every row in `code/attendance_data.csv` before performing calculations.
+The program checks every row in `codebase/attendance_data.csv` before performing calculations.
 
 A record is skipped if any of the following conditions occur:
 
