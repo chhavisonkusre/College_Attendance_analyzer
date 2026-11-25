@@ -1,0 +1,53 @@
+PS No. 11
+Project Title -  College Attendance Analyzer
+Problem Statement - Analyse student attendance from a CSV file to calculate attendance percentage, find students below the 75% requirement and show attendance patterns.
+
+Language: Python 3      
+Concepts: Pandas, CSV, Matplotlib, Filtering
+
+Note: CSV columns: Name, Subject, Classes_Held, Classes_Attended. Minimum required attendance is 75%.
+
+Test Cases / Case Statements (4 cases)
+
+Test Case 1: Normal Input
+attendance.csv:
+Aman,Python,40,36
+Riya,Python,40,28
+Karan,Python,40,30
+Menu option 1 (Percentage)	                                                Aman: 90.00% | Riya: 70.00% | Karan: 75.00%
+
+
+Test Case 2: Boundary / Minimum Input
+attendance.csv:
+Karan,Python,40,30
+Menu option 2 (Shortage list)	                                       No student below 75%.
+                                                                                               Karan (75.00%) is eligible.
+
+
+Test Case 3: Invalid Input
+attendance.csv:
+Aman,Python,40,45	                                                                Row 1 invalid: attended (45) cannot exceed held (40). Row skipped.
+
+
+Test Case 4: Different Valid Scenario
+Test Case 1 rows plus: Aman,Maths,50,45
+Menu option 3 (Subject-wise average)	                                Python: 78.33% | Maths: 90.00%
+                                                                                                Bar chart displayed
+
+
+Bare Minimum Requirements	
+1. Write the solution in Python 3 (one .py file) and run it from the console.
+2. Load the attendance CSV file using Pandas.
+3. Calculate the attendance percentage of every student.
+4. Filter and display students below 75% using boolean filtering.
+5. Plot at least two Matplotlib charts (bar and pie).
+
+
+Instruction	
+1. Understand the problem statement and define the problem clearly.
+2. Develop the solution using proper logic and programming concepts.
+3. Implement all required features and pass the given test cases.
+4. Test and debug the project to ensure correct output.
+5. Prepare the documentation/report and upload the code and report to GitHub.
+6. Complete and submit the project within the given deadline.
+
