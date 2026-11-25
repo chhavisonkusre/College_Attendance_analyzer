@@ -14,25 +14,25 @@ attendance.csv:
 Aman,Python,40,36
 Riya,Python,40,28
 Karan,Python,40,30
-Menu option 1 (Percentage)	                                                Aman: 90.00% | Riya: 70.00% | Karan: 75.00%
+Menu option 1 (Percentage)	                                        Aman: 90.00% | Riya: 70.00% | Karan: 75.00%
 
 
 Test Case 2: Boundary / Minimum Input
 attendance.csv:
 Karan,Python,40,30
 Menu option 2 (Shortage list)	                                       No student below 75%.
-                                                                                               Karan (75.00%) is eligible.
+                                                                     Karan (75.00%) is eligible.
 
 
 Test Case 3: Invalid Input
 attendance.csv:
-Aman,Python,40,45	                                                                Row 1 invalid: attended (45) cannot exceed held (40). Row skipped.
+Aman,Python,40,45	                                                   Row 1 invalid: attended (45) cannot exceed held (40). Row skipped.
 
 
 Test Case 4: Different Valid Scenario
 Test Case 1 rows plus: Aman,Maths,50,45
 Menu option 3 (Subject-wise average)	                                Python: 78.33% | Maths: 90.00%
-                                                                                                Bar chart displayed
+                                                                      Bar chart displayed
 
 
 Bare Minimum Requirements	
